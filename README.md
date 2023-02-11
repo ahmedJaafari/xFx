@@ -79,7 +79,7 @@ This function is used to download a file from the server.
 
 The function returns True if the download is successful and False if an error occurs.
 
-## XFxClient.resume_ownload(filename: str) -> Bool
+## XFxClient.resume_download(filename: str) -> Bool
 This function is used to resume the download a file from the server.
 
     filename: The name of the file to be downloaded
