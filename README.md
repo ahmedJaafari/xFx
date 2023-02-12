@@ -1,3 +1,9 @@
+# Table of Contents
+1.	[xFx Protocol](#xfx-protocol)
+
+2.	[xFx Client Library](#xfx-client-library)
+
+<a name="xfx-protocol"></a>
 # xFx Protocol
 The client opens a connection with the server and *informs* the server whether it wants to *download*, *upload*, *get file list* or *check the hash* of a file using a *header*.
 
@@ -53,7 +59,7 @@ If a network error happens
 - **NETWORK_ERROR[Line Feed]**
 
 
-
+<a name="xfx-client-library"></a>
 # xFx Client Library in Python
 In order to make it easier for developers to implement the xFx protocol, a client library in Python is provided. The library provides convenient methods to interact with the server and handle the communication as well as errors.
 
